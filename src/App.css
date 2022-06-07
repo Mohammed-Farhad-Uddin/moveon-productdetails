@@ -1,6 +1,5 @@
 .cart{
     max-width: 100%;
-    padding:20px;
 }
 .gallery{
     max-width: 100%;
@@ -13,6 +12,7 @@ box-shadow:3px 3px 3px rgba(255, 255, 255, 0.3);
 .cart-details{
     background-color: rgba(52, 58, 58, 0.432);
     padding:20px;
+  
 }
 .background{
     width: 95%;

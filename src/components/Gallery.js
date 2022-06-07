@@ -19,7 +19,7 @@ const Gallery = () => {
         <div className="row gallery">
             {
                 products.gallery && products.gallery.map((product,i) =>
-                    <div key={i} className="col-md-6 px-0 col-sm-6" >
+                    <div key={i} className="col-md-6 px-0 mx-0 col-sm-6" >
                         <img className="w-100" src={product.url} alt="" />
                     </div>
                 )
