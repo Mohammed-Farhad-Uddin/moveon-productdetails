@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+.cart{
+    max-width: 100%;
+    padding:20px;
+}
+.gallery{
+    max-width: 100%;
+}
+.gallery div img:hover{
+transform: scale(1.02);
+transition: ease-in-out 0.5s;
+box-shadow:3px 3px 3px rgba(255, 255, 255, 0.3);
+}
+.cart-details{
+    background-color: rgba(52, 58, 58, 0.432);
+    padding:20px;
+}
+.background{
+    width: 95%;
+    background-color:white;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.details{
+    max-width: 100%;
+    width: 100%;
+}
+.variant-image{
+    margin: 0px;
+    padding: 0px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    border: 1px solid rgba(109, 97, 97, 0.493);
+    border-radius:5px;
+    background-color: rgba(206, 158, 35, 0.158);
+}
+.variant-size{
+    margin: 0px;
+    padding: 10px 40px 10px 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(109, 97, 97, 0.493);
+    border-radius:5px;
+}
+.variant-image img{
+    /* height:100%;
+    width: 50%;
+    padding:5px; */
+    border-radius:5px;
+    background-color:rgba(206, 158, 35, 0.158);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.active{
+    border:1px solid rgb(206, 157, 35);
+    background-color:rgba(206, 158, 35, 0.158);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.active img{
+    background-color:transparent;
+    background-color:rgba(206, 158, 35, 0.158);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.title{
+    background-color:rgb(245, 212, 24);
+    width: 95%;
 }
-
-.App-link {
-  color: #61dafb;
+.percent{
+    color:rgba(236, 75, 75, 0.753);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.old-price{
+    color:rgba(44, 43, 43, 0.486);
+    text-decoration: line-through;
+}
+.discounted-price{
+    color:rgba(27, 21, 21, 0.801);
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+}
+.span-color{
+    color:rgba(44, 43, 43, 0.815);
 }
